@@ -1,0 +1,28 @@
+{
+  "name": "lab-diapovideo",
+  "version": "1.0.0",
+  "description": "Slider Video",
+  "main": "index.js",
+  "scripts": {
+    "test": "dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stryver/Lab-DiapoVideo.git"
+  },
+  "keywords": [
+    "lab",
+    "video",
+    "slider",
+    "diapo"
+  ],
+  "author": "Gaulthier Boggio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stryver/Lab-DiapoVideo/issues"
+  },
+  "homepage": "https://github.com/stryver/Lab-DiapoVideo#readme",
+  "devDependencies": {
+    "electron": "^9.1.1"
+  }
+}
