@@ -2,3 +2,6 @@
 .idea/
 
 slider/node_modules
+.DS_Store
+
+slider/videos/

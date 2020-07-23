@@ -9,7 +9,7 @@ function createWindow () {
     mainWindow = new BrowserWindow({width: 1800, height: 1200});
 
     mainWindow.loadURL(`file://${__dirname}/index.html`);
-
+    mainWindow.openDevTools();
     mainWindow.on('closed', () => {
         mainWindow = null;
     })

@@ -4,7 +4,9 @@
   "description": "Slider Video",
   "main": "index.js",
   "scripts": {
-    "test": "dev"
+    "test": "dev",
+    "pack" :  "electron-builder --dir" ,
+    "dist" :  "electron-builder"
   },
   "repository": {
     "type": "git",
@@ -23,6 +25,19 @@
   },
   "homepage": "https://github.com/stryver/Lab-DiapoVideo#readme",
   "devDependencies": {
-    "electron": "^9.1.1"
+    "electron": "^9.1.1",
+    "electron-builder": "^22.7.0"
+  },
+  "build" :  {
+    "appId" :  "your.id" ,
+    "mac" :  {
+      "category" :  "your.app.category.type"
+    }
+  },
+  "dependencies": {
+    "@glidejs/glide": "^3.4.1",
+    "jquery": "^3.5.1",
+    "jsquery": "^1.1.1",
+    "slick-carousel": "^1.8.1"
   }
 }
