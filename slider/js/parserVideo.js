@@ -1,34 +1,161 @@
 const data = {
     "video_list": [
         {
-            "name": "Asteria",
-            "path": "videos/asteria.mp4",
+            "name": "12 Janvier 2013",
+            "path": "12-janvier-2013.MOV",
             "duration": "120",
             "date": "2020",
             "show": true
         },
         {
-            "name": "32 rue Anodontia",
-            "path": "videos/32 rue Anodontia.mp4",
+            "name": "31 Mars 2013",
+            "path": "31-mars-2013.MOV",
             "duration": "120",
             "date": "2019",
             "show": true
         },
         {
-            "name": "Avec le do de la cuillère",
-            "path": "videos/Avec le Do de la cuillère.mp4",
+            "name": "31 Mars 2013 (2)",
+            "path": "31-mars-2013-2.MOV",
             "duration": "120",
             "date": "2015",
             "show": true
         },
         {
-            "name": "Coin coin final",
-            "path": "videos/Coin coin final.mp4",
+            "name": "Accord de rue",
+            "path": "accord-de-rue.mov",
             "duration": "120",
             "date": "2017",
             "show": true
+        },
+        {
+            "name": "Atelier mao",
+            "path": "ateliers-mao.mov",
+            "duration": "120",
+            "date": "2015",
+            "show": true
+        },
+        {
+            "name": "Au bar",
+            "path": "au-bar.mov",
+            "duration": "120",
+            "date": "2015",
+            "show": true
+        },
+        {
+            "name": "Boots n cats",
+            "path": "boots-n-cats.mov",
+            "duration": "120",
+            "date": "2015",
+            "show": true
+        },
+        {
+            "name": "Concert local",
+            "path": "concert-local.MOV",
+            "duration": "120",
+            "date": "2015",
+            "show": true
+        },
+        {
+            "name": "David Vincent",
+            "path": "david-vincent.mov",
+            "duration": "120",
+            "date": "2015",
+            "show": true
+        },
+        {
+            "name": "Expo paralleles",
+            "path": "expo-paralleles.mp4",
+            "duration": "120",
+            "date": "2015",
+            "show": true
+        },
+        {
+            "name": "Godrowsy",
+            "path": "Godrowsy.mpg",
+            "duration": "120",
+            "date": "2015",
+            "show": true
+        },
+        {
+            "name": "Halloween",
+            "path": "halloween.mov",
+            "duration": "120",
+            "date": "2015",
+            "show": true
+        },
+        {
+            "name": "Max Totem 27 Juin 2014",
+            "path": "max-totem-27-juin-2014.MOV",
+            "duration": "120",
+            "date": "2015",
+            "show": true
+        },
+        {
+            "name": "MR Ralph 2013",
+            "path": "MR-Raph2013.MOV",
+            "duration": "120",
+            "date": "2015",
+            "show": true
+        },
+        {
+            "name": "Max Totem 27 Juin 2013",
+            "path": "mute-totem-27-juin-2013.MOV",
+            "duration": "120",
+            "date": "2015",
+            "show": true
+        },
+        {
+            "name": "Ptite soeur",
+            "path": "ptite-soeur.mov",
+            "duration": "120",
+            "date": "2015",
+            "show": true
+        },
+        {
+            "name": "Répétition jonglage",
+            "path": "repetition-jonglage.mp4",
+            "duration": "120",
+            "date": "2015",
+            "show": true
+        },
+        {
+            "name": "Répétition studio",
+            "path": "repetition-studio.mp4",
+            "duration": "120",
+            "date": "2015",
+            "show": true
+        },
+        {
+            "name": "Slump",
+            "path": "slump.mp4",
+            "duration": "120",
+            "date": "2015",
+            "show": true
+        },
+        {
+            "name": "Spot",
+            "path": "spot.avi",
+            "duration": "120",
+            "date": "2015",
+            "show": true
+        },
+        {
+            "name": "Yadlabiere",
+            "path": "yadlabiere.MOV",
+            "duration": "120",
+            "date": "2015",
+            "show": true
+        },
+        {
+            "name": "Yeahyeah chaouee 8 Février 2013",
+            "path": "yeahyeah-chaouee- 8-fevrier-2013.MOV",
+            "duration": "120",
+            "date": "2015",
+            "show": true
         }]
 }
+
 let currentVideo = 0;
 let fullScreenEnable = false;
 
