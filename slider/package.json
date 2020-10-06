@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/stryver/Lab-DiapoVideo#readme",
   "devDependencies": {
-    "electron": "^9.1.1",
+    "electron": "^9.3.1",
     "electron-builder": "^22.7.0"
   },
   "build" :  {
